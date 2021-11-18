@@ -364,6 +364,10 @@ template {
   display: none;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .form-control {
   max-width: 400px;
   padding-bottom: 10px;
@@ -463,5 +467,28 @@ template {
   padding-top: 10px;
   bottom: none;
   margin-top: 15px;
+}
+
+.card {
+  list-style-type: none;
+}
+
+.avanger-image {
+  width: 310px;
+  height: 180px;
+}
+
+.father {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 1000px;
+  margin-left: 30px;
+}
+
+.father .card {
+  margin: 10px;
 }
 /*# sourceMappingURL=main.css.map */
